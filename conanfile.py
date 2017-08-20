@@ -3,6 +3,7 @@ from conans import ConanFile, tools, os
 class BoostDetailConan(ConanFile):
     name = "Boost.Detail"
     version = "1.64.0"
+    short_paths = True
     url = "https://github.com/bincrafters/conan-boost-detail"
     source_url = "https://github.com/boostorg/detail"
     description = "Please visit http://www.boost.org/doc/libs/1_64_0/libs/libraries.htm"
