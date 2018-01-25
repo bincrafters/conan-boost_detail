@@ -8,7 +8,8 @@ class BoostDetailConan(ConanFile):
     name = "boost_detail"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_detail"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["detail"]
     is_in_cycle_group = True
     is_header_only = True
